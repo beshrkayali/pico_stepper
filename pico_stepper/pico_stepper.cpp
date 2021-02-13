@@ -37,6 +37,7 @@ PicoStepper::PicoStepper(PicoStepperConf conf) {
   this->current_step = 0;
   this->dir = 0;
   this->last_step_us_time = 0;
+  this->delay = 60L * 1000L * 1000L / this->total_steps / conf.initial_speed;
   gpio_init(this->pin1);
   gpio_init(this->pin2);
   gpio_init(this->pin3);
