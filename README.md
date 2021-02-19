@@ -2,6 +2,8 @@
 
 A library to control a bipolar stepper motor for the Raspberry Pi Pico board.
 
+[![CMake](https://github.com/beshrkayali/pico_stepper/actions/workflows/cmake.yml/badge.svg)](https://github.com/beshrkayali/pico_stepper/actions/workflows/cmake.yml)
+
 ## Example
 
 An example project is available under `example` directory.
